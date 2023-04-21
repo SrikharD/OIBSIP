@@ -1,0 +1,110 @@
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000000;
+  }
+  
+  h1 {
+    
+    font-style: italic ;
+    text-justify: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  h2{
+    color: white;
+  }
+  
+  #to-do-form {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  #input-task {
+    padding: 10px;
+    border-color: aqua;
+    border: darkblue;
+    border-radius: 40px;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 40%;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #ffd000;
+  }
+
+  
+  #pending-tasks,
+  #completed-tasks {
+
+    width: 90%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 1px;
+   
+  }
+  
+  #pending-tasks h2,
+  #completed-tasks h2 {
+    text-align: center;
+    margin: 15px;
+    border-color: darkblue;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  #pending-tasks {
+    border-color: darkblue;
+    background-color: rgba(255, 0, 0, 0.861);
+  }
+  
+  #completed-tasks {
+    border-color: darkblue;
+    background-color: green;
+  }
+  
+  #task-list li {
+    border-color: darkblue;
+    background-color: #fff;
+  }
+  
+  #completed-list li {
+    border-color: darkblue;
+    background-color: #e6ffe6;
+  }
+  
